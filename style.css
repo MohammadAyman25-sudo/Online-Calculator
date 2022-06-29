@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+div{
+    background-color: darkgray;
+    margin: 10px 406px;
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 447px;
+    font-size: 48px;
+    height: 55px;
+    margin-top: 5px;
+}
+
+button{
+    width: 95px;
+    height: 70px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#equals{
+    width: 450px;
+    height: 70px;
+}
