@@ -2,7 +2,7 @@ $(document).ready(
   function (){
       $("#1").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(1);
               else {
                   let x = $("#value").val() + 1;
@@ -12,7 +12,7 @@ $(document).ready(
       );
       $("#2").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(2);
               else {
                   let x = $("#value").val() + 2;
@@ -22,7 +22,7 @@ $(document).ready(
       );
       $("#3").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(3);
               else {
                   let x = $("#value").val() + 3;
@@ -32,7 +32,7 @@ $(document).ready(
       );
       $("#4").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(4);
               else {
                   let x = $("#value").val() + 4;
@@ -42,7 +42,7 @@ $(document).ready(
       );
       $("#5").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(5);
               else {
                   let x = $("#value").val() + 5;
@@ -51,7 +51,7 @@ $(document).ready(
           }
       );$("#6").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(6);
               else {
                   let x = $("#value").val() + 6;
@@ -61,7 +61,7 @@ $(document).ready(
       );
       $("#7").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(7);
               else {
                   let x = $("#value").val() + 7;
@@ -71,7 +71,7 @@ $(document).ready(
       );
       $("#8").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(8);
               else {
                   let x = $("#value").val() + 8;
@@ -81,7 +81,7 @@ $(document).ready(
       );
       $("#9").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(9);
               else {
                   let x = $("#value").val() + 9;
@@ -91,7 +91,7 @@ $(document).ready(
       );
       $("#0").click(
           function(){
-              if ($("#value").val() === "0")
+              if ($("#value").val() === "0" || $("#value").val() === "Infinity")
                   $("#value").val(0);
               else {
                   let x = $("#value").val() + 0;

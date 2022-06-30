@@ -21,6 +21,10 @@ button{
     font-size: 18px;
 }
 
+button :hover{
+    cursor: hand;
+}
+
 #equals{
     width: 450px;
     height: 70px;
