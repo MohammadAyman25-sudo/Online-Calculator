@@ -3,7 +3,8 @@ body{
 }
 div{
     background-color: darkgray;
-    margin: 10px 406px;
+    margin: auto;
+    width: 475px;
     text-align: center;
 }
 
@@ -19,6 +20,7 @@ button{
     height: 70px;
     margin: 10px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 button :hover{
